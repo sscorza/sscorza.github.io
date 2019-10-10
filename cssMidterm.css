@@ -91,7 +91,7 @@ body{
 
 .section3 {
     background-color:#454545;
-    height: 80%;
+    height: 100%;
     width: 100%;
 }
 
@@ -115,7 +115,7 @@ body{
     height: 15%;
 }
 
-.section4{
+/* .section4{
     background-color: #454545;
     height: 30%;
     padding-top: 0px;
@@ -132,7 +132,7 @@ body{
     padding: 15px;
     font-size: 25px;
     font-family: 'Open Sans Condensed', sans-serif;
-}
+} */
 
 .memo2{
     padding: 15px;
@@ -142,12 +142,14 @@ body{
     background: rgba(25,190,255,.45);
 }
 
-.project{
-    padding: 0px;
-    margin: 0px;
+.section3 div{
+    /* padding: 0;
+    margin: 5px; */
     background: rgba(25,190,255,.45);
-    width: 300px;
-    height: 300px;
+    max-width: 325px;
+    width: 325px;
+    height: 325px;
+    max-height: 325px;
 }
 
 .report{
@@ -179,13 +181,13 @@ body{
     font-size: 45px;
     color: lightgray;
 }
-
+/* 
 .section5{
     background-color: #454545;
     height: 45%;
     padding-top: 0px;
     margin-top: 0px
-}
+} */
 
 #body{
     background-image: url(images/LOUIS.jpg);
@@ -205,22 +207,24 @@ a:hover{
 }
 
 .project img{
-    height: 300px;
-    width: 300px;
-    padding-left: 15px;
-}
-
-
-.project img{
     position: absolute;
     opacity: 1;
-    top: 133;
-    bottom: 0;
+    /* top: 133;
+    bottom: 0; */
     transition: .5s ease;
-    height: 300px;
-    width: 300px;
+    height: 340px;
+    width: 340px;
+    /* padding-left: 20px; */
 }
 
 .project img:hover{
     opacity: 0;
+}
+
+.smalltext{
+    font-size: 21px;
+}
+
+.tinyproject{
+    color: slategrey;
 }
