@@ -1,13 +1,14 @@
 .nav{
     position: fixed;
-    height: 4%;
+    height: 3%;
     width: 100%;
     z-index: 9999;
-    background-color: slategrey;
+    background-color: #383a40;
     margin: 0px;
     padding-bottom: 15px;
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 22px;
+    padding-top: 10px;
+    font-size: 17px;
+    text-align: center;
 }
 
 .nav a{
@@ -17,9 +18,8 @@
 }
 
 .nav a:hover{
-    background-color: white;
-    color: #cad2de;
-    transition: .5s ease;
+    color: black;
+    transition: .3s ease;
 }
 
 a{
