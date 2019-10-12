@@ -64,13 +64,14 @@ body{
     height: 100%;
     margin: 0px;
     padding: 0px;
+    position: relative;
+    top: 30%;
 }
 
 .resumeimage img{
+    width: 121%;
     height: auto;
-    width:  950px;
 }
-
 .introduction h2{
     color: white;
     padding: 15px;
@@ -245,4 +246,16 @@ body{
 
 .tinyproject{
     color: slategrey;
+}
+
+.resume1{
+    height: 30%;
+    background-color: #fcb242;
+    position: fixed;
+}
+
+.resume2{
+    padding: 0px;
+    margins: 0px;
+    width: 100%;
 }
