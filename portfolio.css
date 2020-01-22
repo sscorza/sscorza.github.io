@@ -154,13 +154,38 @@ footer {
 }
 
 .smallText {
-    padding-left: 4%;
-    padding-top: 10%;
+    padding-left: 15%;
+    padding-top: 30%;
     font-family: 'Poppins', sans-serif;
     max-width: 10%;
     max-height: 20;
 }
 
+/* github work */
+
+.gitWork {
+    padding-top: 15%;
+    width: 20%;
+    height: 32%;
+}
+
+.gitWork {
+    position: absolute;
+    opacity: 1;
+    transition: .5s ease;
+}
+
+.gitWork:hover {
+    opacity: 0;
+}
+
+.smallText2 {
+    padding-left: 9%;
+    padding-top: 75%;
+    font-family: 'Poppins', sans-serif;
+    max-width: 10%;
+    max-height: 50px;
+}
 /* photoshop work */
 
 .beach1 img{
