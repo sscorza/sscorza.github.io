@@ -252,12 +252,12 @@ padding-left: 5%;
 }
 
 @media screen and (max-width: 480px) {
-    .photoshop {
-        display: none;
+    .work1 {
+        width: 100%;
     }
 
-    .gitWork {
-        display: none;
+    .work2 {
+        width: 100%;
     }
 
     .resumeImg {
