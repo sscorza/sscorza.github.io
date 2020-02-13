@@ -68,12 +68,6 @@ footer {
     color: white;
 }
 
-@media screen and (max-width: 1000px) {
-    .resumeText {
-        display: none;
-    }
-}
-
 .navResume {
     width: 100%;
     height: 3%;
@@ -247,4 +241,22 @@ padding-left: 5%;
     max-height: 75px;
     max-width: 75px;
     padding-left: 30px;
+}
+
+
+/* mobile screens */
+@media screen and (max-width: 1000px) {
+    .resumeText {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .work1 {
+        display: none;
+    }
+
+    .work2 {
+        display: none;
+    }
 }
