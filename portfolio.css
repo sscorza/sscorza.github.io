@@ -129,6 +129,9 @@ footer {
 
 /* my work */
 
+.footBR {
+    margin-top: 40%;
+}
 /* title */
 .workTitle {
     font-family: 'Poppins', sans-serif;
@@ -183,7 +186,7 @@ footer {
 
 .smallText2 {
     padding-left: 9%;
-    padding-top: 75%;
+    padding-top: 65%;
     font-family: 'Poppins', sans-serif;
     max-width: 10%;
     max-height: 50px;
